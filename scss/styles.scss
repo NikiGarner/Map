@@ -1,4 +1,38 @@
-#map {
-  width: 100%;
-  height: 1000px;
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Permanent Marker', cursive;
+  h1 {
+    margin-top: 50px;
+    font-size: 5em;
+  }
+  .search{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    #search{
+    background:rgba(255, 255, 255, 0.1);
+    border:0px solid #dbdbdb;
+    border-bottom: 2px solid rgba(50, 50, 50, 0.1);
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 400px;
+    }
+    #btn1,
+    #btn2  {
+      border-radius: 5px;
+      align-self: center;
+      padding: 10px;
+      // background: #a3ccff;
+    }
+  }
+  #map {
+    width: 100%;
+    height: 900px;
+  }
 }
